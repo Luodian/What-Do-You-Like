@@ -1,0 +1,25 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Desktop/WhatDoYouLike" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Desktop/WhatDoYouLike" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Desktop/WhatDoYouLike">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-172.4155.36" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1506352075186" />
+              <option name="buildTimestamp" value="1505156619585" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
