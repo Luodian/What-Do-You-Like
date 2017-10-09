@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <constant name="struts.devMode" value="true" />
+    <package name="BookManagement" extends="struts-default">
+        <result-types>
+            <result-type name="mytype" class="ResultType.MyResultType"/>
+        </result-types>
+        <action name="search" class="Action.SearchBooksByAuthor" method="execute">
+            <result name="success">/AuthorSearchList.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        <action name="addbook" class="Action.AddBook" method="execute">
+            <result name="success">
+                SuccessAdd.jsp
+            </result>
+            <result name="VERIFYAUTHOR">VerifyAuthor.jsp</result>
+            <result name="NOAUTHOR">MoreInfoAddBook.jsp</result>
+            <result name="CHOOSEAUTHOR">ChooseAuthor.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        <action name="detail" class="Action.BookDetailsAction" method="execute">
+            <result name="success">/BookDetail.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        <action name="edit" class="Action.EditBookInfo" method="execute">
+            <result name="success">/EditBookInfo.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        <action name="delete" class="Action.DeleteAction" method="execute">
+            <result name="success">/SuccessDelete.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        <action name="SubmitEdit" class="Action.SubmitEdit" method="execute">
+            <result name="success">
+                /SuccessAdd.jsp
+            </result>
+            <result name="NOAUTHOR">MoreInfoAddBook.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+
+        <action name="allbooks" class="Action.ShowAllBookAction" method="execute">
+            <result name="success">/ShowBookList.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+
+        <action name="allauthor" class="Action.ShowAllAuthorAction" method="execute">
+            <result name="success">/ShowAuthorList.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+
+        <action name="Authordetail" class="Action.AuthorDetailsAction" method="execute">
+            <result name="success">/AuthorDetail.jsp</result>
+            <result name="nobook">/NoBook.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+
+        <action name="addbookauthor" class="Action.AddBookAuthor" method="execute">
+            <result name="success">SuccessAdd.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+
+        <action name="error">
+            <result>/error.jsp</result>
+        </action>
+    </package>
+
+</struts>

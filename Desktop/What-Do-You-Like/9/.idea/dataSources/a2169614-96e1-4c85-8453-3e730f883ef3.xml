@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="books@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="books">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <schema id="6" parent="1" name="sys"/>
+    <table id="7" parent="2" name="Author"/>
+    <table id="8" parent="2" name="Book"/>
+    <column id="9" parent="7" name="AuthorID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="10" parent="7" name="Name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="11" parent="7" name="BirthDate">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="12" parent="7" name="Country">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="13" parent="7" name="AuImageUrl">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+      <DefaultExpression>&apos;http://opmza2br0.bkt.clouddn.com/17-10-7/6760070.jpg&apos;</DefaultExpression>
+    </column>
+    <column id="14" parent="7" name="Comment">
+      <Position>6</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <index id="15" parent="7" name="AuthorID_UNIQUE">
+      <ColNames>AuthorID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="16" parent="7" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>AuthorID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="17" parent="7" name="AuthorID_UNIQUE">
+      <ColNames>AuthorID</ColNames>
+      <UnderlyingIndexName>AuthorID_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="18" parent="8" name="ISBN">
+      <Position>1</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="8" name="Author">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <DefaultExpression>&apos;佚名&apos;</DefaultExpression>
+    </column>
+    <column id="20" parent="8" name="AuthorID">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="21" parent="8" name="Name">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="22" parent="8" name="price">
+      <Position>5</Position>
+      <DataType>float unsigned zerofill|0</DataType>
+    </column>
+    <column id="23" parent="8" name="ImageUrl">
+      <Position>6</Position>
+      <DataType>varchar(100)|0</DataType>
+      <DefaultExpression>&apos;http://opmza2br0.bkt.clouddn.com/17-10-7/6760070.jpg&apos;</DefaultExpression>
+    </column>
+    <column id="24" parent="8" name="PublishDate">
+      <Position>7</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="25" parent="8" name="Publisher">
+      <Position>8</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="26" parent="8" name="Comment">
+      <Position>9</Position>
+      <DataType>mediumtext|0</DataType>
+    </column>
+    <index id="27" parent="8" name="ISBN_UNIQUE">
+      <ColNames>ISBN</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="28" parent="8" name="AuthorID_idx">
+      <ColNames>AuthorID</ColNames>
+    </index>
+    <key id="29" parent="8" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ISBN</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="30" parent="8" name="ISBN_UNIQUE">
+      <ColNames>ISBN</ColNames>
+      <UnderlyingIndexName>ISBN_UNIQUE</UnderlyingIndexName>
+    </key>
+    <foreign-key id="31" parent="8" name="AuthorID">
+      <ColNames>AuthorID</ColNames>
+      <RefSchemaName>books</RefSchemaName>
+      <RefTableName>Author</RefTableName>
+      <RefColNames>AuthorID</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+  </database-model>
+</dataSource>
