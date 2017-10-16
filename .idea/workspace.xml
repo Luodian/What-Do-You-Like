@@ -1,7 +1,538 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0136c0d7-d8b1-4c4e-962b-22db43125715" name="Default" comment="" />
+    <list default="true" id="0136c0d7-d8b1-4c4e-962b-22db43125715" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war/9_war.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Action/Action.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Action/AddBook.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Action/AddBookAuthor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Action/AuthorDetailsAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Action/BookDetailsAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Action/DeleteAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Action/EditBookInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Action/SearchBooksByAuthor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Action/ShowAllAuthorAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Action/ShowAllBookAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Action/SubmitEdit.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Database/DataBaseConnector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Database/FetchData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Database/UploadData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Model/AuthorItem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/Model/BookItem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/ResultType/MyResultType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/TagAction/URLTagAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/lib/commons-fileupload-1.3.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/lib/commons-io-2.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/lib/commons-lang3-3.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/lib/freemarker-2.3.23.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/lib/javassist-3.20.0-GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/lib/log4j-api-2.8.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.44-bin.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/lib/ognl-3.1.15.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/lib/struts2-core-2.5.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/css/nivo-lightbox-theme/default/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/css/nivo-lightbox-theme/default/close@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/css/nivo-lightbox-theme/default/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/css/nivo-lightbox-theme/default/loading@2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/css/nivo-lightbox-theme/default/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/css/nivo-lightbox-theme/default/next@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/css/nivo-lightbox-theme/default/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/css/nivo-lightbox-theme/default/prev@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/img/bullet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/img/cbp-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/img/hero-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/img/works/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/img/works/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/img/works/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/img/works/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/img/works/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/img/works/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/img/works/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/img/works/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Action/Action.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Action/AddBook.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Action/AddBookAuthor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Action/AuthorDetailsAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Action/BookDetailsAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Action/DeleteAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Action/EditBookInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Action/SearchBooksByAuthor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Action/ShowAllAuthorAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Action/ShowAllBookAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Action/SubmitEdit.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Database/DataBaseConnector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Database/FetchData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Database/UploadData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Model/AuthorItem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/Model/BookItem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/ResultType/MyResultType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/TagAction/URLTagAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/css/nivo-lightbox-theme/default/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/css/nivo-lightbox-theme/default/close@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/css/nivo-lightbox-theme/default/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/css/nivo-lightbox-theme/default/loading@2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/css/nivo-lightbox-theme/default/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/css/nivo-lightbox-theme/default/next@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/css/nivo-lightbox-theme/default/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/css/nivo-lightbox-theme/default/prev@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/img/bullet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/img/cbp-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/img/hero-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/img/works/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/img/works/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/img/works/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/img/works/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/img/works/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/img/works/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/img/works/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/img/works/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/.idea/artifacts/9_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/.idea/artifacts/9_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/.idea/libraries/Struts_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/.idea/libraries/mysql_connector_java_5_1_44_bin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/.idea/webServers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/9.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/AddBook.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/AuthorDetail 2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/AuthorDetail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/AuthorSearchList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/BookDetail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/ChooseAuthor 2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/ChooseAuthor.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/EditBookInfo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/MoreInfoAddBook.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/NoBook.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/ShowAuthorList 2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/ShowAuthorList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/ShowBookList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/SuccessAdd.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/SuccessDelete.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/VerifyAuthor.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/http_cdn.bootcss.com_bootstrap_3.3.7_js_bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/http_cdn.bootcss.com_jquery_2.1.1_jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/http_cdn.static.runoob.com_libs_bootstrap_3.3.7_js_bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/http_cdn.static.runoob.com_libs_jquery_2.1.1_jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/http_oss.maxcdn.com_libs_html5shiv_3.7.0_html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/http_oss.maxcdn.com_libs_respond.js_1.3.0_respond.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/classes/struts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/color/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/contactform/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/css/animations.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/css/nivo-lightbox-theme/default/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/css/nivo-lightbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/error.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/error/404.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/less/spinning.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/scss/_spinning.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/index 2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/js/css3-animate-it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/js/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/js/jquery.appear.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/js/jquery.easing.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/js/jquery.scrollTo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/js/jquery.sticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/js/nivo-lightbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/artifacts/9_war_exploded/js/stellar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/out/production/9/struts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Action/Action.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Action/AddBook.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Action/AddBookAuthor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Action/AuthorDetailsAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Action/BookDetailsAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Action/DeleteAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Action/EditBookInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Action/SearchBooksByAuthor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Action/ShowAllAuthorAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Action/ShowAllBookAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Action/SubmitEdit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Database/DataBaseConnector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Database/FetchData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Database/UploadData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Model/AuthorItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/Model/BookItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/ResultType/MyResultType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/TagAction/URLTagAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/src/struts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/AddBook.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/AuthorDetail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/AuthorSearchList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/BookDetail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/ChooseAuthor.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/EditBookInfo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/MoreInfoAddBook.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/NoBook.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/ShowAuthorList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/ShowBookList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/SuccessAdd.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/SuccessDelete.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/VerifyAuthor.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/color/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/contactform/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/css/animations.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/css/nivo-lightbox-theme/default/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/css/nivo-lightbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/error.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/error/404.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/less/spinning.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/scss/_spinning.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/js/css3-animate-it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/js/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/js/jquery.appear.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/js/jquery.easing.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/js/jquery.scrollTo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/js/jquery.sticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/js/nivo-lightbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9/web/js/stellar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/IdeaProjects/Hello_World/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Library/Preferences/AndroidStudio2.3/options/fileEditorProviderManager.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/codestyles/Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/colors.scheme.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/debugger.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/dimensions.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/editor.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/extensionsRootType.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/feature.usage.statistics.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/images.support.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/laf.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/options.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/path.macros.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/project.default.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/recentProjects.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/statistics.application.usages.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/stubIndex.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/updates.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/window.manager.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/Graphical/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/Graphical/bar.py" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/.idea/description.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/.idea/gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/.idea/libraries/first_maven_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/.idea/libraries/javafxsvg_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/.project" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/example/abc.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/example/dot.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/example/dt.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/example/ex1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/example/ex1.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/example/ex2.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/example/ex3.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/example/ex4-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/example/pic.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/Controller.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/GraphInterface/DirectedGraph.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/GraphInterface/DirectedGraphInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/GraphInterface/Vertex$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/GraphInterface/Vertex$Edge.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/GraphInterface/Vertex$NeighborIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/GraphInterface/Vertex$WeightIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/GraphInterface/Vertex.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/GraphInterface/VertexInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/Main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/Main$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/Main$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/Main$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/Main$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/Main$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/Main$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/Main$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/Main$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/Main.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/a.dot" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/a.dot.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/dot.dot" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/icons/images.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/icons/unnamed.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/a.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/andtoand.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/andtoclose.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/andtois.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/andtosaid.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/andtoto.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/b.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/betobe.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/betothat.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/button.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/c.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/closetoa.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/closetoclose.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/closetogod.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/closetohouse.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/closetois.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/closetoit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/closetoof.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/closetothe.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/closetoto.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/coveredtoand.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/coveredtobe.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/coveredtoclose.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/coveredtocovered.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/coveredtogod.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/coveredtohouse.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/coveredtois.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/coveredtoit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/coveredtomountain.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/coveredtoof.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/coveredtosaid.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/coveredtothat.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/coveredtothe.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/coveredtoto.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/data-syncing-512.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/gba.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/gbass.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/ittoa.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/ittoafrica.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/ittocovered.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/ittohighest.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/ittoin.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/ittois.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/ittoit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/ittomountain.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/ittosnow.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/ittothe.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/ittothere.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/kilimanjarotoa.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/kilimanjarotocovered.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/kilimanjarotogod.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/kilimanjarotohouse.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/kilimanjarotois.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/kilimanjarotoit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/kilimanjarotokilimanjaro.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/kilimanjarotomountain.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/kilimanjarotoof.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/kilimanjarotosaid.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/kilimanjarotosnow.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/kilimanjarotosummit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/kilimanjarotothe.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/kilimanjarototo.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/kilimanjarotowestern.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/leopardtobe.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/mainlabel.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notobe.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notoclose.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notoexplained.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notogod.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notohas.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notohighest.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notohouse.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notois.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notoit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notono.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notoof.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notoone.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notosaid.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notosummit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notothat.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notothe.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notothere.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/nototo.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/notowhat.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/oftoa.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/oftogod.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/oftois.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/oftoit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/oftoof.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/oftosaid.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/oftosummit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/oftothe.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/oftoto.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/pic.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/snowtosnow.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/summittobe.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/summittoclose.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/summittohighest.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/summittois.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/summittosaid.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/summittosummit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/summittothat.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/summittothe.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/summittothere.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/summittoto.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/test.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattoa.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattoafrica.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattoand.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattobe.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattocovered.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattogod.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattohighest.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattohouse.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattoin.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattois.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattoit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattomountain.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattoof.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattosaid.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattosnow.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattosummit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattothat.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattothe.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattothere.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattoto.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thattowhat.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetoa.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetoafrica.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetoand.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetobe.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetobehind.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetocalled.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetoclose.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetocovered.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetoexplained.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetogod.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetohas.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetohighest.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetohouse.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetoin.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetois.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetoit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetoleopard.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetomountain.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetono.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetoof.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetoone.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetosaid.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetosnow.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetosummit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetothat.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetothere.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetoto.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetowas.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetowestern.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/thetowhat.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/resources/images/whattothat.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/out/production/VisualizeUrText/sample/sample.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/Controller.java" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/GraphInterface/DirectedGraph.java" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/GraphInterface/DirectedGraphInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/GraphInterface/Vertex.java" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/GraphInterface/VertexInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/Main.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/a.dot.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/dot.dot" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/resources/icons/images.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/resources/icons/unnamed.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/resources/images/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/resources/images/a.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/resources/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/resources/images/b.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/resources/images/background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/resources/images/button.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/resources/images/c.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/resources/images/data-syncing-512.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/resources/images/gba.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/resources/images/gbass.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/resources/images/mainlabel.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/resources/images/test.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Lab1/src/sample/sample.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/a.txt" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/b.txt" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/c.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/9/.idea/workspace.xml" afterPath="$PROJECT_DIR$/9/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,18 +543,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
@@ -33,6 +553,12 @@
       <projects_view />
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -40,11 +566,16 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="736" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Production" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -58,12 +589,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -169,39 +706,93 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506347697532</updated>
+      <workItem from="1508153155326" duration="369000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="369000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="737" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="736" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44012946" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44012946" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -211,14 +802,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
   </component>
   <component name="masterDetails">
     <states>
